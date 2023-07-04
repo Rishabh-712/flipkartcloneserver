@@ -73,5 +73,7 @@ export const addPaymentGateway = async (request, response) => {
 // };
 
 export const paymentResponse = (request, response) => {
-  response.redirect(``);
+  response.redirect(
+    `https://64a46c0b5d78460d2fa6dae6--super-malasada-d02972.netlify.app/`
+  );
 };
